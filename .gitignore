@@ -1,0 +1,35 @@
+**/data/
+data/*
+datadump/
+lockfiles/
+src/third_party/
+video_dir/
+assets/
+output/
+
+
+__pycache__/
+*.pyc
+
+# 模型
+*.pt
+*.pth
+*.ckpt
+
+# 调试文件
+*.npy
+*.png
+
+
+test.py
+
+
+assets/hab_stretch/
+src/home_robot_hw/assets/hab_stretch/
+*.STL
+*.stl
+*.obj
+*.dae
+*.pt
+*.npy
+*.png
