@@ -1,0 +1,5 @@
+numpy
+empy
+catkin_pkg
+rospkg
+rosnumpy

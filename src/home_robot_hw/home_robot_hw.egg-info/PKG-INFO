@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: home_robot_hw
+Version: 1.0.0
+Requires-Dist: numpy
+Requires-Dist: empy
+Requires-Dist: catkin_pkg
+Requires-Dist: rospkg
+Requires-Dist: rosnumpy
+Dynamic: requires-dist

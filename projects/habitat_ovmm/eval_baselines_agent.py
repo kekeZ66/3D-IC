@@ -50,13 +50,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--baseline_config_path",
         type=str,
-        default="/home/kmz/ovmm/home-robot-data/projects/habitat_ovmm/configs/agent/heuristic_agent.yaml",
+        default="projects/habitat_ovmm/configs/agent/heuristic_agent.yaml",
         help="Path to config yaml",
     )
     parser.add_argument(
         "--env_config_path",
         type=str,
-        default="/home/kmz/ovmm/home-robot-data/projects/habitat_ovmm/configs/env/hssd_demo.yaml",
+        default="projects/habitat_ovmm/configs/env/hssd_demo.yaml",
         help="Path to config yaml",
     )
     parser.add_argument(
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--scene_id",
         type=int,
-        default=0,
+        default=-1,
     )
     args = parser.parse_args()
 
